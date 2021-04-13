@@ -1,0 +1,18 @@
+.signUp form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left:25%;
+    margin-right:25%;
+}
+.signUp form input{
+    height: 35px;
+    margin-top: 35px;
+}
+.signUp form input[type=submit]{
+    width:120px;
+    height: 40px;
+    background-color: rgb(76, 106, 199);
+    color: white;
+    border:none;
+}

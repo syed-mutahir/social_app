@@ -1,0 +1,102 @@
+.postsContainer .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(114, 29, 114);
+}
+.postsContainer .header h1{
+   color:white;
+   margin-left:50px ;
+}
+.postsContainer .header ul{
+    display: flex;
+    list-style: none;
+}
+.postsContainer .header ul li{
+    padding-left: 30px;
+}
+.postsContainer .postsBody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.postsContainer .postsBody .createStory{
+    border:solid 2px lightgray;
+    background-color:rgb(235, 234, 234);background-color: rgb(224, 222, 222);
+    padding: 2%;
+}
+.postsContainer .postsBody .createStory form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.postsContainer .postsBody .createStory form input{
+    height: 30px;
+    font-size: 15px;
+    border:solid 1px rgb(114, 29, 114);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.postsContainer .postsBody .createStory form textarea{
+    margin-bottom: 5px;
+    font-size: 15px;
+    border:solid 1px rgb(114, 29, 114);
+    border-radius: 5px;
+}
+.postsContainer .postsBody .createStory form button{
+    width:150px;
+    height: 40px;
+    border:none;
+    background-color: seagreen;
+    color: white;
+    font-size: 15px;
+}
+.postsContainer .postsBody .createStory form button:hover{
+    cursor: pointer;   
+}
+.postsContainer .stories .storyContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+.postsContainer .stories .storyContainer .story{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 5%;
+    border:solid 2px lightgray;
+    background-color:rgb(114, 29, 114);
+    color:white;
+}
+.postsContainer .stories .story h4{
+    color:lightgray;
+    opacity: 0.5;
+}
+
+.postsContainer .stories .storyContainer .commentSection input{
+    width:98.7%;
+    height: 30px;
+    padding: 5px;
+    border: solid 1px gray;
+}
+.postsContainer .stories .storyContainer .commentSection .comments{
+    padding: 10px; 
+    padding-left: 5%;
+    padding-right: 5%;
+    border-right: solid 2px lightgray;
+    border-left: solid 2px lightgray;
+}
+.postsContainer .stories .storyContainer .commentSection .comments .comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom:4px;
+    background-color: lightgray;
+}

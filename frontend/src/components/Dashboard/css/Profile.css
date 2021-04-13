@@ -1,0 +1,54 @@
+.profileContainer .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(114, 29, 114);
+}
+.profileContainer .header h1{
+   color:white;
+   margin-left:50px ;
+}
+.profileContainer .header ul{
+    display: flex;
+    list-style: none;
+}
+.profileContainer .header ul li{
+    padding-left: 30px;
+}
+.profileContainer .profileBody{
+    padding-top: 3%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.profileContainer .profileBody .profile{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding: 5%;
+    background-color: lightgray;
+}
+.profileContainer .profileBody .profile .myImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileContainer .profileBody .profile .myImage .uploadFile{
+    margin-top: 10px;
+    display: flex;  
+}
+.profileContainer .profileBody .profile .myImage .uploadFile i:hover{
+    cursor: pointer;
+}
+.profileContainer .profileBody .profile .delete-account{ 
+    text-align: center;
+}
+.profileContainer .profileBody .profile .delete-account button{ 
+    border:none;
+    padding: 10px;
+    background-color: rgb(189, 19, 19);
+    color:white;
+}
+.profileContainer .profileBody .profile .delete-account button:hover{ 
+    cursor: pointer;
+}
